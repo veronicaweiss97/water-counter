@@ -1,4 +1,11 @@
-<div class="cursor-pointer bar">
+<div class="bar">
+  <figure
+    class="round"
+    (click)="toggleExpandedView()"
+    [@openClose]="isOpen ? 'open' : 'closed'"
+  >
+    <span class="shadow"></span>
+  </figure>
   <h2>{{ day.weekDay }}</h2>
   <h2>{{ day.waterAmount }}L</h2>
 </div>

@@ -12,4 +12,9 @@
   transform-style: preserve-3d;
   transform: translateZ(2px);
   transition: transform 0.5s ease-in-out;
+  transition: all 3s;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
