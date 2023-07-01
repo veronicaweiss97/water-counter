@@ -1,0 +1,15 @@
+.main-card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  background: #30b1ce4b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  perspective: 1500;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  box-shadow: 5px 5px 24px 0px rgba(0, 0, 0, 0.2);
+  /* flex-direction: column; */
+  transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transform: translateZ(2px);
+  transition: transform 0.5s ease-in-out;
+}
